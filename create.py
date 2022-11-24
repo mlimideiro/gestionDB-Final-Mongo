@@ -1,4 +1,3 @@
-from pymongo import MongoClient
 from conection import *
 
 usuario = data_base['usuario']
