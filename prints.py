@@ -1,5 +1,4 @@
 from pymongo import MongoClient
-from conection import *
 from create import *
 
-
+print(data_base.list_collection_names())
