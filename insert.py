@@ -75,7 +75,7 @@ cuentas_movimientos.insert_many( [
         'monto' : 2600,
         'fecha_movimiento' : '2022-06-14',
         'moneda_tipo' : 'pesos',
-        'comision' : 120,
+        'comision' : { 'deposito'  : 120 },
         'tipo_cuenta' : 'caja_ahorro',
         'estado' : True,
         'nombre_usuario' : 'gbruno'
@@ -84,7 +84,7 @@ cuentas_movimientos.insert_many( [
         'monto' : 1400,
         'fecha_movimiento' : '2022-06-09',
         'moneda_tipo' : 'pesos',
-        'comision' : 100,
+        'comision' : { 'extraccion' : 60 },
         'tipo_cuenta' : 'caja_ahorro',
         'estado' : True,
         'nombre_usuario' : 'gbruno'
@@ -93,7 +93,7 @@ cuentas_movimientos.insert_many( [
         'monto' : 9800,
         'fecha_movimiento' : '2022-07-29',
         'moneda_tipo' : 'dolares',
-        'comision' : 200,
+        'comision' : { 'transferencia' : 200 },
         'tipo_cuenta' : 'caja_ahorro_dolares',
         'estado' : True,
         'nombre_usuario' : 'gbruno'
